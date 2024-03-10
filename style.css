@@ -1,0 +1,166 @@
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: hsl(0, 28%, 27%);
+}
+nav ul{
+  display: flex;
+  justify-self: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  color: beige;
+  font-size: 1.01rem;
+}
+main hr{
+  border: 0;
+  background:hsl(39, 92%, 43%);
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.left{
+  font-size: 2em;
+}
+.firstSection{
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  margin: 20px ;
+}
+.firstSection > div{
+  width: 30%;
+}
+.leftSection{
+  font-size: 2em;
+}
+.leftSection .btn{
+  padding: 12px;
+  border-radius:6px ;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: wheat;
+  background-color: hsla(51, 91%, 51%, 0.6);
+  text-decoration: none;
+}
+.leftSection .buttons{
+  padding: 50px 0;
+}
+.leftSection .btn a{
+  text-decoration: none;
+}
+
+
+.purple{
+  color: hsl(52, 95%, 49%);
+}
+.text-grey{
+  color: rgb(173, 132, 211);
+}
+.purple:hover{
+  color:hsl(33, 69%, 60%);
+  font-size: 35px;
+}
+#element{
+  color: blanchedalmond;
+}
+
+.SecondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.SecondSection h1{
+  font-size: 2rem;
+}
+.SecondSection .box{
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.SecondSection .vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+.image-top{
+  width: 34px;
+  position:relative;
+  top: -28px;
+  left: -5px; 
+}
+.vertical-title{
+  position:relative;
+  top:65px;
+  width: 150px;
+  font-size: 14px;
+
+}
+.vertical-des{
+  position: relative;
+  top:5px;
+  color: azure;
+  width: 150px;
+  font-size: 10px;
+
+}
+.footer{
+  background-color: hsl(60, 35%, 38%);
+  height: 200px;
+}
+.footer{
+  display: flex;
+  padding: 30px 15px;
+  justify-content: space-evenly;
+}
+.footer ul{
+  list-style: none;
+}
+.footer-second{
+  float: center ;
+  display: flex;
+  cursor: pointer;
+}
+.footer-second:hover{
+  color: hsl(208, 48%, 84%);
+  font-size: 15px;
+}
+.footer-third{
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+.footer-third a{
+ text-decoration: none;
+ color: inherit;
+ padding: 0;
+ margin: 0;
+
+
+}
+.footer-third:hover{
+  color: hsl(191, 7%, 68%);
+  font-size: 15px;
+}
+
+.footer-first{
+  text-align: center;
+}
+footer .footer-rights{
+  text-align: center;
+  color: hsl(55, 94%, 48%);
+  padding: 12px;
+}
