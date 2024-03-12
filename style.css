@@ -5,6 +5,16 @@ nav{
   height: 80px;
   background-color: hsl(0, 28%, 27%);
 }
+nav .left{
+  font-size: 2rem;
+  color: var(--text-color)
+  fontw 800;
+  cursor: pointer;
+  transform: 0.3s ease-in-out;
+}
+nav .left:hover{
+  transform:scale(1.1);
+}
 nav ul{
   display: flex;
   justify-self: center;
@@ -118,8 +128,14 @@ main hr{
 
 }
 .footer{
+  position: relative;
   background-color: hsl(60, 35%, 38%);
   height: 200px;
+  bottom: 0;
+  width: 100;
+  padding: 40px 0;
+
+
 }
 .footer{
   display: flex;
@@ -127,33 +143,54 @@ main hr{
   justify-content: space-evenly;
 }
 .footer ul{
-  list-style: none;
+margin-top: 0;
+padding: 0;
+font-size: 19px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+list-style: none;
 }
-.footer-second{
-  float: center ;
+.footer-second ul li{
   display: flex;
   cursor: pointer;
+  color: white;
+  border-bottom: 3px solid transparent;
+
 }
-.footer-second:hover{
-  color: hsl(208, 48%, 84%);
-  font-size: 15px;
+.footer-second ul li a:hover{
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+  display: inline-block;
+  padding: 0 15px;  
+  text-decoration: none;
+  color: inherit;
 }
 .footer-third{
   float: right;
+  padding-bottom: 25px;
   color: white;
   cursor: pointer;
 }
 .footer-third a{
- text-decoration: none;
- color: inherit;
  padding: 0;
  margin: 0;
+ color: var(--main-color);
+ bottom: 2px solid var(--main-color);
+ width: 42px;
+ font-size: 25px;
+ height: 42px;
+ line-height: 42px;
+margin: 0 5px;
+transform: 0.3s ease-in-out;
 
 
 }
 .footer-third:hover{
-  color: hsl(191, 7%, 68%);
-  font-size: 15px;
+  color:var(--text-color);
+  transform: scale(1)translate(-8px);
+  background-color: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
 }
 
 .footer-first{
@@ -163,4 +200,47 @@ footer .footer-rights{
   text-align: center;
   color: hsl(55, 94%, 48%);
   padding: 12px;
+}
+.contact{
+  background-color: var(--second-bg-color);
+}
+.contact .heading{
+  margin-bottom: 5rem;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.contact form{
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-color: wheat;
+
+}
+.contact form .input-box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--bg-color);
+  border-radius: 0.8rem;
+  border: 2px solid var(--main-color);
+  margin: 1rem 0;
+  resize: none;
+}
+.contact form .btn{
+  margin-top: 2rem;
+  padding: 15px ;
+  font-size: 1em;
+  background-color: var(--main-color);
+  color: hsl(14, 29%, 53%);
+
+
 }
