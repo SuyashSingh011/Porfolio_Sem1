@@ -6,14 +6,16 @@ nav{
   background-color: hsl(0, 28%, 27%);
 }
 nav .left{
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--text-color)
   fontw 800;
   cursor: pointer;
-  transform: 0.3s ease-in-out;
+  
 }
 nav .left:hover{
-  transform:scale(1.1);
+  font-size: 39.5px;
+
+  
 }
 nav ul{
   display: flex;
@@ -73,13 +75,14 @@ main hr{
 
 .purple{
   color: hsl(52, 95%, 49%);
+  cursor: pointer;
 }
 .text-grey{
   color: rgb(173, 132, 211);
 }
 .purple:hover{
   color:hsl(33, 69%, 60%);
-  font-size: 35px;
+  font-size: 33px;
 }
 #element{
   color: blanchedalmond;
